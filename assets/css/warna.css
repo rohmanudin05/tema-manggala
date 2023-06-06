@@ -1,0 +1,18 @@
+
+:root{
+	--colorprime: #ffc62b;
+	--colorsec: #ff8400;
+	--bgprime: #ffc62b;
+	--bgsec: #ff8400;
+	--gradbg-center: linear-gradient(to right, var(--colorsec), var(--colorprime) 20%, var(--colorprime) 80%, var(--colorsec));
+}
+a{color:var(--colorsec);}
+a:hover, a:focus{color:#000;}
+.colorprime{color:var(--colorprime);}
+.colorsec{color:var(--colorsec);}
+.bgprime{background:var(--bgprime);}
+.bgsec{background:var(--bgsec);}
+.header-section-right .bgprime{background:var(--bgprime);color:#fff;}
+.header-section-right .bgsec{background:var(--bgsec);color:#fff;}
+.header-section-right .bgprime:hover{background:var(--bgsec);color:#fff;}
+.header-section-right .bgsec:hover{background:var(--bgprime);color:#fff;}
